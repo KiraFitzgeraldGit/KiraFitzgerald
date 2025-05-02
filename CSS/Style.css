@@ -1,3 +1,47 @@
-h1{
-    color: darkcyan;
+body {
+    margin: 0px; 
+    display: flex; 
+
 }
+
+#main_container { 
+    width: 1024px; 
+    height: 150px; 
+    margin: 0px auto; 
+    background-color: #bde5ee; 
+    border: 1px black solid; 
+} 
+
+#header {
+    width: 100%; 
+    height: 150px; 
+    background-color: #fcf49f; 
+    border: 1px black solid;
+} 
+
+#about_me_content {
+    width: 720px;
+    height: 500px;
+    border: 1px black solid;  
+    margin: 160px; 
+    margin-top: 100px; 
+} 
+
+#about_me_content { 
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center; /* Optional: Aligns items vertically */
+} 
+
+.box { 
+    width: 562px; 
+    height: 50%; /* Adjust height as needed */ 
+    background-color: rgb(255, 255, 255); /* Optional: Add a background color */
+    padding: 10px; /* Optional: Add some padding */
+    border: 1px solid black; /* Optional: Add a border */ 
+    
+}
+
+h1{ 
+   color: burlywood;
+} 
