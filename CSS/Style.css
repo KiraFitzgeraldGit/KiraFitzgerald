@@ -4,65 +4,77 @@ body {
 background-color: #bde5ee; 
 }
 
+a {
+    justify-content: space-around; 
+    background-color: aliceblue; 
+    border: 1px black solid; 
+    font-size: large;
+}
+
 #main_container { 
     width: 1024px; 
-    height: 2000px; 
+    height: 3200px; 
     margin: 0px auto; 
-    display: flex; 
-    background-color: #bde5ee; 
+    /* display: flex;  */
+    background-color: #fcf49f; 
     border: 1px black solid; 
 } 
 
-#header {
+#header { 
     width: 100%; 
     height: 97px; 
     background-color: #bde5ee; 
     border: 1px black solid;
 } 
 
-#about_me_content {
+#about_me_content { 
     display: flex; 
     justify-content: space-around; 
-    align-items: center; /* Optional: Aligns items vertically */ 
+    /* align-items: center; Optional: Aligns items vertically  */
     columns: 3; 
     width: 962px;
     height: 300px;
     /* border: 1px black solid;   */
-    margin-top: 300px; 
     background-color: #fcf49f;
 
 } 
 
+
+
 ul { 
     /* border: 1px solid black;  */
-    padding: 100px;
+    /* padding: 100px;  */
+    background-color: #fcf49f; 
+    font-size: 30px;
 } 
 
 p {
-    /* padding: 100px;  */
     background-color: #fcf49f; 
+    font-size: 30px;
 } 
 
-.box { 
+#box { 
     width: 338px; 
     height: 50%; /* Adjust height as needed */ 
-    background-color: rgb(255, 255, 255); /* Optional: Add a background color */
     padding: 10px; /* Optional: Add some padding */
-    border: 1px solid black; /* Optional: Add a border */ 
-    
 }
 
 h1{ 
-   color: black;
+   color: black; 
 } 
 
-.box-2 {
-    border: 5px solid black;
+#box-2 {
+    color: black; 
+    /* margin: 300px; */
+        /* width:400px; */
+        /* clear: left; */
 } 
 
-.Contact-content {
+#Contact-content {
     display: flex; 
     justify-content: space-around; 
+    height: 200px; 
+    width: 400px;
     margin: 300px ;
     /* align-items: center; Optional: Aligns items vertically  */
     columns: 3; 
@@ -70,23 +82,19 @@ h1{
     margin-top: 300px; 
     background-color: #fcf49f;
 }
-.Contacts { 
-   
-
+#Contacts { 
+    color: black;
+    margin-bottom: 200px;
 } 
 
-.Portfolio {
-    display: flex; 
+#Portfolio {
+    display: block; 
     justify-content: space-around; 
     /* align-items: center; Optional: Aligns items vertically  */
-    columns: 3; 
     width: 962px;
-    height: 300px;
+    height: 1500px;
     /* border: 1px black solid;   */
     margin-top: 300px; 
-    background-color: #fcf49f;
+    background-color: #fcf49f; 
+    position: absolute; 
 } 
-img {
-    display: block;
-    margin: 10px 0; /* Adjust as needed */
-}
