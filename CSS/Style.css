@@ -81,6 +81,14 @@ h1{
 } 
 
 #Contact-content {
+    background-image: url('Portfolio/BackgroundForContacts.png'); /* Adjust the path to the image file */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image in the div */
+    width: 100%; /* Optional: Set the width of the div */
+    height: 400px; /* Optional: Set the height of the div */
+  }
+#Contact-content {
     display: flex; 
     justify-content: space-around; 
     height: 200px; 
@@ -89,7 +97,11 @@ h1{
     /* align-items: center; Optional: Aligns items vertically  */
     columns: 3; 
     margin-top: 300px; 
-    background-color: #fcf49f;
+    /* background-color: #fcf49f;  */
+    background-image: url('portfolio/BackgroundForContacts.png');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center center; /* Centers the image */
 }
 #Contacts { 
     color: black;
