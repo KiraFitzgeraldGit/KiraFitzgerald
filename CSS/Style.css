@@ -23,7 +23,7 @@ a {
 
 #main_container { 
     width: 1024px; 
-    height: 5200px; 
+    height: 5300px; 
     margin: 0px auto; 
     /* display: flex;  */
     background-color: #fcf49f; 
@@ -127,29 +127,10 @@ div.gallery img {
 div.desc {
   padding: 15px;
   text-align: center; 
-  border: 1px black solid;
-}
-.Poster {
+} 
+
+.Images {
     display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.HaloLogo{
-    display: block;
-  margin-left: auto;
-  margin-right: auto; 
-  background-color: white;
-} 
-
-.Showstoppers {
-display: block;
-  margin-left: auto;
-  margin-right: auto; 
-} 
-
-.Photoshop.Project {
-    display: block; 
-    margin-left: auto; 
-    margin-right: auto;
 }
