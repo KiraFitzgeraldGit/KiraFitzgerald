@@ -5,7 +5,6 @@ background-color: #bde5ee;
 }
 
 
-
 a {
     justify-content: space-around; 
     background-color: aliceblue; 
@@ -23,11 +22,11 @@ a {
 
 #main_container { 
     width: 1024px; 
-    height: 5300px; 
+    height: 5700px; 
     margin: 0px auto; 
     /* display: flex;  */
     background-color: #fcf49f; 
-    border: 1px black solid; 
+    border: 1px black solid;  
 } 
 
 #header { 
@@ -45,7 +44,8 @@ a {
     width: 962px;
     height: 300px;
     /* border: 1px black solid;   */
-    background-color: #fcf49f;
+    background-color: #fcf49f; 
+    margin-bottom: 200px;
 
 } 
 
@@ -81,31 +81,24 @@ h1{
 } 
 
 #Contact-content {
-    background-image: url('Portfolio/BackgroundForContacts.png'); /* Adjust the path to the image file */
-    background-size: cover; /* Ensures the image covers the entire div */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center center; /* Centers the image in the div */
-    width: 100%; /* Optional: Set the width of the div */
-    height: 400px; /* Optional: Set the height of the div */
-  }
-#Contact-content {
     display: flex; 
     justify-content: space-around; 
     height: 200px; 
     width: 400px;
-    margin: 300px ;
+    /* margin: 100px ; */
     /* align-items: center; Optional: Aligns items vertically  */
     columns: 3; 
     margin-top: 300px; 
     /* background-color: #fcf49f;  */
-    background-image: url('portfolio/BackgroundForContacts.png');
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-position: center center; /* Centers the image */
+    background-image: url("/Portfolio/BackgroundForContacts.png");
+    background-size: contain; /* Ensures the image covers the entire div */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: left 400px; /* Centers the image in the div */
+  width: 1030px; /* Optional: Set the width of the div */
+  height: 1200px; /* Optional: Set the height of the div */
 }
 #Contacts { 
     color: black;
-    margin-bottom: 200px;
 } 
 
 #Portfolio {
@@ -115,8 +108,8 @@ h1{
     width: 962px;
     height: 1500px;
     /* border: 1px black solid;   */
-    margin-top: 700px; 
-    background-color: #fcf49f; 
+    margin-top: 1000px; 
+    /* background-color: #fcf49f;  */
     position: absolute; 
 } 
 
